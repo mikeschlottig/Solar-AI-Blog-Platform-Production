@@ -1,0 +1,43 @@
+[project]
+name = "solar-ai-blog-platform-service"
+version = "1.0.0"
+description = "Solar AI Blog Platform - Intelligent blogging backend with AI content generation, SEO optimization, and automated publishing"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "beautifulsoup4>=4.13.3",
+    "boto3>=1.38.10",
+    "cryptography>=45.0.5",
+    "fastapi>=0.115.12",
+    "h11>=0.16.0",
+    "httpcore>=1.0.9",
+    "httpx>=0.28.1",
+    "loguru>=0.7.3",
+    "psycopg>=3.2.6",
+    "psycopg-pool>=3.2.6",
+    "pydantic>=2.11.3",
+    "pyjwt>=2.10.1",
+    "python-dotenv>=1.1.0",
+    "python-multipart>=0.0.20",
+    "requests>=2.32.3",
+    "uvicorn>=0.34.1",
+    "openai>=1.30.0",
+    "jinja2>=3.1.0",
+    "markdown>=3.5.0",
+    "pygments>=2.16.0",
+    "python-slugify>=8.0.1",
+    "feedgen>=0.9.0",
+    "python-wordpress-xmlrpc>=2.3",
+    "tweepy>=4.14.0",
+    "linkedin-api>=2.0.0",
+    "facebook-sdk>=3.1.0",
+    "google-analytics-data>=0.17.0",
+    "nltk>=3.8.1",
+    "textstat>=0.7.3",
+    "yake>=0.4.8",
+    "newspaper3k>=0.2.8"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
